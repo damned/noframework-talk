@@ -1,0 +1,46 @@
+{
+    "title": "about this talk",
+    "points":
+        [
+            {
+                "point": "caveats",
+                "notes": "own opinions; based on real experience"
+            },
+            {
+                "point": "\"NoFramework\" term - an approach",
+                "notes": "an approach: hype around NoSql; NoDatabase article; was meaning to talk about not using framework, or keeping them at arms length; not noframework php framework"
+            },
+            {
+                "point": "motivation",
+                "points": [
+                    {
+                        "point": "reaction to 'no framework'",
+                        "notes": "essentially puzzled: various; pleased to startled; mainly uneasy, uncomfortable"
+                    },
+                    {
+                        "point": "attitudes to frameworks",
+                        "notes": "essentially comfort: various; essential to horrified; based on experiences and sensitivities",
+                    }
+                ]
+            },
+            {
+                "point": "goals",
+                "points": [
+                    {
+                        "point": "share approach"
+                    },
+                    {
+                        "point": "improve confidence"
+                    },
+                    {
+                        "point": "encourage as option for projects"
+                    },
+                    {
+                        "point": "provide some reasoning",
+                        "notes": "for approach; about approach"
+
+                    }
+                ]
+            },
+        ]
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "title": "NoFramework",
+        "description": "The what, what-not, why, how and when of developing an application (probably on web) without a fat framework."
+        "content": "Technical, plenty of (mainly web) code, some jibber-jabber around ROI, team culture, innovation and the face-off between libraries and frameworks in the struggle for re-use."
+        "slides":
+            [
+                { "href": "slides/talk-talk.json" },
+                { "href": "slides/what-is-noframework.json" },
+                { "href": "slides/talk-example.json" },
+                { "href": "slides/why-use-noframework.json" },
+                { "href": "slides/top-tips.json" },
+                { "href": "slides/what-is-going-on.json" },
+                { "href": "slides/relationship-to-innovation.json" },
+                { "href": "slides/relationship-to-culture.json" },
+                { "href": "slides/see-also.json"}
+            ]
+    }
+]
