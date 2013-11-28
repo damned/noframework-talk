@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative 'with_gems'
+
+with_gems.install 'rspec'

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"example:EFI"&RSpec::Core::ExampleGroup#example;FI"RW;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@attr_reader;TI"=Returns the {Example} object that wraps this instance of;TI"`ExampleGroup`;T:
+@file0FI"$lib/rspec/core/example_group.rb;T
