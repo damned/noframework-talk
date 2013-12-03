@@ -11,7 +11,7 @@ class WithGems
     FileUtils.mkpath @gem_dir
     cmd = "GEM_HOME='#{@gem_dir}';GEM_PATH='' #{whatever}"
     puts cmd + ':'
-    puts `#{cmd}`
+    Kernel.system cmd
   end
 end
 
