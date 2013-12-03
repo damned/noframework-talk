@@ -1,6 +1,7 @@
 [
     {
         "title": "NoFramework",
+        "by": "dan moore",
         "description": {
             "points": [
                 "Developing an application without a fat framework",

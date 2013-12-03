@@ -96,6 +96,9 @@
                     },
                     {
                         "point": "minimise knowledge not executably documented in codebase"
+                    },
+                    {
+                        "point": "can you mix and match?"
                     }
                 ]
             },
