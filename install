@@ -2,4 +2,3 @@
 require_relative 'with_gems'
 
 with_gems.install 'rspec'
-with_gems.install 'popen4'
