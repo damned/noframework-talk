@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 require_relative 'lib/talk'
+require_relative 'lib/console'
 
-puts NoFramework::SlideShow.new.first
+module NoFramework
+  app = SlideShow.new Console.new
+  app.first
+end

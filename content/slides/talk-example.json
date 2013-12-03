@@ -13,11 +13,15 @@
             },
             {
                 "point": "start by re-using small focused applications",
-                "notes": "from unix philosophy"
+                "notes": "from unix philosophy; big reward for little effort"
             },
             {
-                "point": "will work this for ??????",
-                "notes": ""
+                "point": "next iteration: clean up",
+                "notes": "can get so far but not very clean app"
+            },
+            {
+                "point": "next iteration: have a design, apply to code",
+                "notes": "p"
             },
         ],
     "notes": "pictures, diagrams, maybe whiteboard - of what building, how classes fit together"
