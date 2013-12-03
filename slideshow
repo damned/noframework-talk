@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative 'lib/talk'
+require_relative 'lib/slideshow'
 require_relative 'lib/console'
 
 module NoFramework

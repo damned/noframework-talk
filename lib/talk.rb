@@ -1,39 +1,41 @@
 require 'json'
 
 module NoFramework
-  class SlideShow
-    def initialize(output)
-      @output = output
-      validate
+  class Slide
+    def initialize(fields)
+      @fields = fields
     end
 
-    def first
-      content = strip_noise(Talk.new.first)
-      output strip_empty_lines(content)
+    def title
+      @fields['title']
+    end
+    def author
+      @fields['by']
     end
 
-    private
-
-    def validate
-      raise InvalidArgumentError.new('need output') unless @output.respond_to? :print
+    def visit_points(&block)
+      list = @fields['description']
+      visit_list(list['points'], &block)
     end
 
-    def output(s)
-      @output.print(s)
-    end
-
-    def strip_empty_lines(multiline)
-      multiline.split("\n").collect(&:strip).reject(&:empty?).join "\n"
-    end
-
-    def strip_noise(noisy)
-      noisy.gsub(/[{}\[\]]/, '')
+    def visit_list(list, &block)
+      list.each { |value|
+        case value
+          when String
+            yield :point, value
+          when Hash
+            yield :list, value['point']
+            visit_list value['points'], &block
+            yield :end_list
+          else
+            # do nothin
+        end
+      }
     end
   end
-
   class Talk
     def first
-      File.read('content/talk.json')
+      Slide.new(JSON.parse File.read('content/talk.json'))
     end
   end
 end
