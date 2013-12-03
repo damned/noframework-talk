@@ -1,0 +1,29 @@
+{
+    "title": "culture and innovation",
+    "points":
+        [
+            {
+                "point": "assumption: trust and responsibility are important"
+            },
+            {
+                "point": "can help foster responsibility"
+            },
+            {
+                "point": "embraces innovation",
+                "notes": "decoupling about reducing change cost across more aspects of system"
+            },
+            {
+                "point": "encourages innovation"
+            },
+            {
+                "point": "blah",
+                "points": [
+                    {
+                        "point": "blah blah",
+                        "notes": "blah blah blah"
+
+                    }
+                ]
+            },
+        ]
+}

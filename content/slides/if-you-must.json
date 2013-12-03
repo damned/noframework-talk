@@ -1,0 +1,23 @@
+{
+    "title": "tips for selecting (a|no) framework - aka if you must",
+    "points":
+        [
+            {
+                "point": "team decides",
+                "notes": "they have to live with it; have to believe in it; force the team = remove responsibility"
+            },
+            {
+                "point": "research then face-off vs agreed aspects - e.g. team knowledge, bespokeness (google: 1550), testability",
+                "notes": "discuss aspects first"
+            },
+            {
+                "point": "limit time"
+            },
+            {
+                "point": "err on deferring most hard-to-revert decisions :7)"
+            },
+            {
+                "point": "notice how this one comes last"
+            }
+        ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "an example",
+    "points":
+        [
+            {
+                "point": "presenting this talk"
+            },
+            {
+                "point": "contrived and gimmicky - just like youtube \"An X application in Y mins on Z framework\""
+            },
+            {
+                "point": "lacking ambition wrote the content already :)"
+            },
+            {
+                "point": "start with example of re-using small focused application(s): grep, less",
+                "notes": "from unix philosophy"
+            },
+            {
+                "point": "will work this for ??????",
+                "notes": ""
+            },
+        ],
+    "notes": "pictures, diagrams, maybe whiteboard - of what building, how classes fit together"
+}

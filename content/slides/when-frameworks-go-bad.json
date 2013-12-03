@@ -1,0 +1,32 @@
+{
+    "title": "when re-use goes bad",
+    "points":
+        [
+            {
+                "point": "just running up the app, back in a few minutes"
+            },
+            {
+                "point": "i've got a new language feature for that: beware external dsls"
+            },
+            {
+                "point": "misbehaved libraries",
+                "points": [
+                    {
+                        "point": "ORM frameworks - the arc of the underwhelm - adopt, install, infect, puzzle-rework, infest, performance-puzzle-rework",
+                        "notes": "pattern that seems to happen"
+                    },
+                    {
+                        "point": "leaky - got out of the box - don't let it out of the box",
+                        "notes": "starts dictating other concerns; even as far as technology solution gets out of box, all the way up through stack, defines user experience; compare with innovation"
+                    },
+                    {
+                        "point": "unfocused - do this and that together - hard to mitigate"
+                    },
+                    {
+                        "point": "large interface - mitigate by adapting",
+                        "notes": "wrap and narrow interface"
+                    }
+                ]
+            },
+        ]
+}

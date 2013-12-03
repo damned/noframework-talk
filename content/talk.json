@@ -1,18 +1,46 @@
 [
     {
         "title": "NoFramework",
-        "description": "The what, what-not, why, how and when of developing an application (probably on web) without a fat framework."
-        "content": "Technical, plenty of (mainly web) code, some jibber-jabber around ROI, team culture, innovation and the face-off between libraries and frameworks in the struggle for re-use."
+        "description": {
+            "points": [
+                "Developing an application without a fat framework",
+                "Probably on web",
+                {
+                    "point": "including",
+                    "points": [
+                        "what",
+                        "what-not",
+                        "why",
+                        "how",
+                        "when"
+                    ]
+                }
+            ]
+        },
+        "content": {
+            "points": [
+                "Technical, plenty of (mainly web) code",
+                {
+                    "point": "some jibber-jabber",
+                    "points": [
+                        "ROI",
+                        "team culture",
+                        "innovation",
+                        "the face-off between libraries and frameworks in the struggle for re-use."
+                    ]
+                }
+            ]
+        },
         "slides":
             [
                 { "href": "slides/talk-talk.json" },
-                { "href": "slides/what-is-noframework.json" },
                 { "href": "slides/talk-example.json" },
-                { "href": "slides/why-use-noframework.json" },
+                { "href": "slides/what-is-noframework.json" },
                 { "href": "slides/top-tips.json" },
+                { "href": "slides/why-use-noframework.json" },
+                { "href": "slides/when-frameworks-go-bad.json" },
                 { "href": "slides/what-is-going-on.json" },
-                { "href": "slides/relationship-to-innovation.json" },
-                { "href": "slides/relationship-to-culture.json" },
+                { "href": "slides/culture-and-innovation.json" },
                 { "href": "slides/see-also.json"}
             ]
     }

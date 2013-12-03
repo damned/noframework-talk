@@ -1,0 +1,40 @@
+{
+    "title": "why use no-framework approach?",
+    "points":
+        [
+            {
+                "point": "defer significant decisions"
+            },
+            {
+                "point": "reduce implicit knowledge"
+            },
+            {
+                "point": "encourage curiosity and innovation"
+            },
+            {
+                "point": "trust team and promote responsibility"
+            },
+            {
+                "point": "reduce lock-in"
+            },
+            {
+                "point": "reduce lock-step upgrades"
+            },
+            {
+                "point": "with time, frameworks' constraints increases"
+            },
+            {
+                "point": "with time, significance of re-use of pre-existing code decreases"
+            },
+            {
+                "point": "blah",
+                "points": [
+                    {
+                        "point": "blah blah",
+                        "notes": "blah blah blah"
+
+                    }
+                ]
+            },
+        ]
+}

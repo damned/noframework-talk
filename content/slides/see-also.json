@@ -1,0 +1,25 @@
+{
+    "title": "see also",
+    "points":
+        [
+            {
+                "point": "uncle bob XXXX",
+                "ref": "xxx",
+                "notes": "no database; framework-first vs framework-last"
+            },
+            {
+                "point": "unix philosophy - complexity",
+                "ref": "http://www.faqs.org/docs/artu/complexitychapter.html"
+            },
+            {
+                "point": "blah",
+                "points": [
+                    {
+                        "point": "blah blah",
+                        "notes": "blah blah blah"
+
+                    }
+                ]
+            },
+        ]
+}

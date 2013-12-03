@@ -1,0 +1,15 @@
+{
+    "title": "what is going on?",
+    "points":
+        [
+            {
+                "point": "re-use is hard"
+            },
+            {
+                "point": "easier to re-use small focused things: from functions to all scales"
+            },
+            {
+                "point": "blah"
+            },
+        ]
+}

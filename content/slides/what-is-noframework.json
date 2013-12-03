@@ -1,0 +1,123 @@
+{
+    "title": "what is NoFramework?",
+    "points":
+        [
+            {
+                "point": "what is a framework?",
+                "points": [
+                    {
+                        "point": "code designed for re-use"
+                    },
+                    {
+                        "point": "generic"
+                    },
+                    {
+                        "point": "broad in functionality"
+                    },
+                    {
+                        "point": "effective use requires broad/deep knowledge"
+                    },
+                    {
+                        "point": "your application runs within it",
+                        "notes": "ie. mischeviously you do what it tells you"
+                    },
+                    {
+                        "point": "usually hard to decouple"
+                    },
+                    {
+                        "point": "usually selected before application is built"
+                    },
+                    {
+                        "point": "implies an approach"
+                    },
+                    {
+                        "point": "effective use requires broad/deep knowledge"
+                    }
+                ]
+            },
+            {
+                "point": "so not a framework?",
+                "points": [
+                    {
+                        "point": "opposite of above points?"
+                    },
+                    {
+                        "point": "still want to re-use"
+                    },
+                    {
+                        "point": "specific in functionality"
+                    },
+                    {
+                        "point": "less to learn"
+                    },
+                    {
+                        "point": "application uses it"
+                    },
+                    {
+                        "point": "easier to decouple"
+                    },
+                    {
+                        "point": "simple to learn"
+                    }
+                ]
+            },
+            {
+                "point": "libraries",
+                "notes": "libraries are good; e.g. rails actually moving towards libraries - activerecord, activesupport, etc. - mainly around incremental upgrade"
+            },
+            {
+                "point": "simple focused applications (libraries = these too)",
+                "notes": "doing nothing is good; simple specifically excludes complicated configuration"
+            },
+            {
+                "point": "no-framework approach",
+                "points": [
+                    {
+                        "point": "assuming incremental, test-driven",
+                        "notes": "everything usually do; what other assumptions?"
+                    },
+                    {
+                        "point": "favour libraries over frameworks",
+                        "notes": "not never use framework"
+                    },
+                    {
+                        "point": "favour simple code over external dependencies"
+                    },
+                    {
+                        "point": "defer significant decisions",
+                        "notes": "significant = hard to reverse? e.g. push vs pull web app",
+                        "refs": [
+                            "http://www.codinghorror.com/blog/2006/10/the-last-responsible-moment.html"
+                        ]
+                    },
+                    {
+                        "point": "decouple esp. for testability and minimising decision impact",
+                        "notes": "significant = hard to reverse?"
+                    },
+                    {
+                        "point": "minimise knowledge not executably documented in codebase"
+                    }
+                ]
+            },
+            {
+                "point": "frameworks have their place - need alignment of project, team, framework values",
+                "notes": "but imply solution and team constraints"
+            },
+            {
+                "point": "metaphorically",
+                "points": [
+                    {
+                        "point": "camping at festival or on a mountain?",
+                        "notes": "my example - camping for climbing and bringing cart & washing up stand etc.; what would Ray Mears do?"
+                    },
+                    {
+                        "point": "what would Ray Mears do?"
+                    },
+                    {
+                        "point": "don't put the horse before the cart",
+                        "notes": "buy horse, feed horse, stable horse; tow the cart with a car; send goods by mail"
+                    },
+                ]
+            }
+        ]
+}

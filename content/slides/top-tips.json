@@ -1,0 +1,56 @@
+{
+    "title": "top tips",
+    "points":
+        [
+            {
+                "point": "team decides",
+                "notes": "framework, no-framework, whatever; trust the team"
+            },
+            {
+                "point": "wrap it up - keep it in the box",
+                "notes": "separate concerns and if you use other code - wrap it; don't fake third party apis; deferring decisions; let application drive design"
+            },
+            {
+                "point": "wrap up accessories - keep them boxed up too",
+                "notes": "callbacks and passed objects; easier tests; cleaner/clearer tests"
+            },
+            {
+                "point": "don't write a framework - YAGNI",
+                "notes": "you ain't gonna need it; unfortunate acronym same as you are gonna need it; you're writing an application, not a framework; if used to frameworks there is a tendency to generalise - resist"
+            },
+            {
+                "point": "keep concerns separate - expect layers",
+                "notes": "no framework, but still expect there to be separate lower level code"
+            },
+            {
+                "point": "manage an innovation budget",
+                "notes": "open up greater possibility of exploding newness; esp. new language; packaging libraries can still be significant work"
+            },
+            {
+                "point": "put aside time to talk about the codebase",
+                "notes": "codetime"
+            },
+            {
+                "point": "put aside time to revisit decisions and design"
+            },
+            {
+                "point": "for larger feature re-use: use applications",
+                "notes": "client-side or favourite proxy pattern"
+            },
+            {
+                "point": "team must be ready and mature",
+                "notes": "responsibility, leadership, but raises big questions if your team not ready - setting low bar"
+            },
+            {
+                "point": "blah",
+                "points": [
+                    {
+                        "point": "blah blah",
+                        "notes": "blah blah blah"
+
+                    }
+                ]
+            },
+        ]
+}
+
