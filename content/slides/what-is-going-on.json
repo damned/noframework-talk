@@ -3,13 +3,13 @@
     "points":
         [
             {
-                "point": "re-use is hard"
+                "point": "re-use is hard - so don't try (across/outside codebase)"
             },
             {
                 "point": "easier to re-use small focused things: from functions to all scales"
             },
             {
-                "point": "blah"
-            },
+                "point": "decision deferral is powerful - not just better decisions but knowing why"
+            }
         ]
 }
