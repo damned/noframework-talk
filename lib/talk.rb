@@ -33,9 +33,13 @@ module NoFramework
       }
     end
   end
+
   class Talk
+    def initialize(json = File.read('content/talk.json'))
+      @json = json
+    end
     def first
-      Slide.new(JSON.parse File.read('content/talk.json'))
+      Slide.new(JSON.parse(@json))
     end
   end
 end

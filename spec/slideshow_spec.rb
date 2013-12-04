@@ -4,26 +4,51 @@ module NoFramework
   describe SlideShow do
     describe '#first' do
       let(:layout) { double('layout', left: nil, centre: nil, start_list: nil, end_list: nil)}
-      let(:show) { SlideShow.new(double('output'), layout)}
+      let(:output) { double('output') }
 
-      it 'should centre the title and my name' do
+      it 'should centre the title and name' do
+        talk = Talk.new({
+              'title' => 'foobar',
+              'by' => 'zebs',
+              'description' =>
+              {
+                  'points' => []
+              }
+        }.to_json)
+
+        show = SlideShow.new(talk, output, layout)
+
         show.first
 
-        expect(layout).to have_received(:centre).with('NoFramework')
-        expect(layout).to have_received(:centre).with('dan moore')
+        expect(layout).to have_received(:centre).with('foobar')
+        expect(layout).to have_received(:centre).with('zebs')
       end
 
       it 'should list description points' do
+        talk = Talk.new({'title' => '', 'by' => '',
+                            'description' =>
+                              {
+                                  'points' => [
+                                      'first point',
+                                      'second point',
+                                      {
+                                          'point' => 'third point has subpoints',
+                                          'points' => [ 'some point', 'another point']
+                                      }
+                                  ]
+                              }
+                        }.to_json)
+
+        show = SlideShow.new(talk, output, layout)
+
         show.first
 
-        expect(layout).to have_received(:left).with('Developing an application without a fat framework')
-        expect(layout).to have_received(:left).with('Probably on web')
-        expect(layout).to have_received(:left).with('including')
+        expect(layout).to have_received(:left).with('first point')
+        expect(layout).to have_received(:left).with('second point')
+        expect(layout).to have_received(:left).with('third point has subpoints')
         expect(layout).to have_received(:start_list)
-        expect(layout).to have_received(:left).with('what')
-        expect(layout).to have_received(:left).with('how')
-        expect(layout).to have_received(:left).with('when')
-        expect(layout).to have_received(:left).with('why')
+          expect(layout).to have_received(:left).with('some point')
+          expect(layout).to have_received(:left).with('another point')
         expect(layout).to have_received(:end_list)
       end
     end

@@ -4,13 +4,13 @@ require_relative 'talk'
 module NoFramework
 
   class SlideShow
-    def initialize(output, layout=Layout.new(output))
+    def initialize(talk, output, layout=Layout.new(output))
+      @talk = talk
       @layout = layout
     end
 
     def first
-      talk = Talk.new
-      title_slide = talk.first
+      title_slide = @talk.first
       display(title_slide)
     end
 
@@ -30,13 +30,6 @@ module NoFramework
 
     private
 
-    def strip_empty_lines(multiline)
-      multiline.split("\n").collect(&:strip).reject(&:empty?)
-    end
-
-    def strip_noise(noisy)
-      noisy.gsub(/[{}\[\]]/, '')
-    end
   end
 
 end

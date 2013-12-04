@@ -15,7 +15,7 @@ describe 'talk' do
       expect(output.split("\n").length).to be > 6
     end
 
-    it 'should not use blank lines' do
+    it 'should not use blanklines' do
       expect(output.split("\n").collect(&:strip)).to_not include ''
     end
   end

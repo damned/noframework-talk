@@ -3,6 +3,6 @@ require_relative 'lib/slideshow'
 require_relative 'lib/console'
 
 module NoFramework
-  app = SlideShow.new Console.new
+  app = SlideShow.new Talk.new, Console.new
   app.first
 end
